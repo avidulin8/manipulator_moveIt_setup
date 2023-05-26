@@ -1,0 +1,9 @@
+<launch>
+
+    <include file="$(find manipulator_moveIt_setup)/launch/gazebo.launch"/>
+    <include file="$(find manipulator_moveIt_setup)/launch/move_group.launch"/>
+    <!-- Run Rviz and load the default config to see the state of the move_group node -->
+    <include file="$(dirname)/moveit_rviz.launch">
+        <arg name="rviz_config" value="$(find manipulator_moveIt_setup)/launch/moveit_raw.rviz"/>
+    </include>
+</launch>

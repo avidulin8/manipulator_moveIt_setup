@@ -8,27 +8,27 @@ arm_controller_controller:
     - joint5
   gains:
     joint1:
-      p: 100
-      d: 1
-      i: 1
+      p: 20
+      d: 0.01
+      i: 0.25
       i_clamp: 1
     joint2:
-      p: 100
-      d: 1
-      i: 1
+      p: 20
+      d: 0.0
+      i: 0.25
       i_clamp: 1
     joint3:
-      p: 100
-      d: 1
-      i: 1
+      p: 20
+      d: 0.0
+      i: 0.25
       i_clamp: 1
     joint4:
-      p: 100
-      d: 1
-      i: 1
+      p: 20
+      d: 0.0
+      i: 0.1
       i_clamp: 1
     joint5:
-      p: 100
-      d: 1
-      i: 1
+      p: 20
+      d: 0.0
+      i: 0.1
       i_clamp: 1
