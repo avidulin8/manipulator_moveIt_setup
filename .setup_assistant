@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: aerial_manipulators_description
+    relative_path: urdf/wp_manipulator_moveit.base.urdf.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/wp_manipulator.srdf
+  CONFIG:
+    author_name: arijan_zavrsni
+    author_email: av53130@fer.hr
+    generated_timestamp: 1685087092
